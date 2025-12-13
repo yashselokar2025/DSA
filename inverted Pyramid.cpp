@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int i,k,j;
+	for(i=4; i>0; i--) 
+    {
+    	for(j=1; j<=4-i; j++) 
+		{
+			printf("  ");
+		}
+    	for(k=1; k<=2*i-1; k++)
+		{
+			printf("* ");
+		 }
+    	printf("\n");
+		}
+    
+}
